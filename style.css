@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@1&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@1&family=Sacramento&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.muur {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./zurag/img_homepage_slider1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.muur .zuraas {
+  width: 70%;
+  margin: auto;
+}
+.muur .header {
+  margin: auto;
+  width: 50%;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.muur header ul {
+  width: 550px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.muur header ul .contact {
+  padding: 10px 38px;
+  border-bottom: 1px solid white;
+}
+.muur header ul .shop {
+  padding: 10px 38px;
+  border-bottom: 1px solid white;
+}
+.muur header ul .About {
+  padding: 10px 38px;
+  border-bottom: 1px solid white;
+}
+.muur header ul .thoughts {
+  padding: 10px 38px;
+  border-bottom: 1px solid white;
+}
+.muur header ul li {
+  list-style: none;
+  color: aliceblue;
+}
+.muur header ul li .squirrel-logo {
+  width: 200px;
+  height: 100%;
+}
+.text {
+  font-size: 80px;
+  text-align: center;
+  margin-top: 300px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: "Playfair Display SC", serif;
+  color: aliceblue;
+  text-transform: capitalize;
+}
+.jijigtext {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Sacramento", cursive;
+  color: aliceblue;
+}
+.container1 .garchig {
+  text-align: center;
+  margin-top: 60px;
+  letter-spacing: 1mm;
+}
+.container1 .tomgarchig {
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
+  letter-spacing: 1mm;
+  margin-bottom: 10px;
+}
+.container1 .autumntxt {
+  text-align: center;
+  font-size: larger;
+  margin-top: 35px;
+}
+.container1 .zuraas1 {
+  width: 30%;
+  margin: auto;
+}
+.container1 .zuragtaibox {
+  width: 80%;
+  height: fit-content;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container1 .zuragtaibox .zurag1 {
+  width: 350px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.container1 .zuragtaibox .zurag1 .uusgalt {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(rgba(41, 41, 41, 0.678), rgba(41, 41, 41, 0.678));
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  visibility: hidden;
+  opacity: 0;
+}
+.container1 .zuragtaibox .zurag1:hover .uusgalt{
+    visibility: visible;
+    opacity: 1;
+}
+.container1 .zuragtaibox .zurag1 .uusgalt .lodoi {
+  color: aliceblue;
+  text-align: center;
+  font-size: larger;
+}
+.container1 .zuragtaibox .zurag1 .uusgalt .lodoi span{
+    font-size: 30px;
+}
+.container1 .zuragtaibox .zurag1 .uusgalt .uusgaltzuraas{
+    width: 85%;
+    margin-top: 15px;
+}
+.container1 .zuragtaibox .zurag1 .uusgalt .lodoi1{
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 25px;
+    font-family: "Sacramento", cursive;
+}
+.container1 .zuragtaibox .zurag1 .uusgalt .lodoi1:hover{
+    color: yellow;
+}
+
+
+.container1 .zuragtaibox .zurag1 .uusgalt .lodoi2{
+    color: aliceblue;
+    text-align: center;
+    font-size: larger;
+}
+.container1 .zuragtaibox .zurag1 .uusgalt .lodoi2 span{
+    font-size: 30px;
+}
+
+    
+
+
+/* .container2{
+  margin: auto;
+} */
+.container2 .garchig {
+  text-align: center;
+  margin-top: 60px;
+  letter-spacing: 1mm;
+  margin: auto;
+}
+.container2 .tomgarchig {
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
+  letter-spacing: 1mm;
+  margin-bottom: 10px;
+}
+.container2 .autumntxt {
+  text-align: center;
+  font-size: larger;
+  margin-top: 35px;
+}
+.container2 .zuraas1 {
+  width: 30%;
+  margin: auto;
+}
+.container2 .zuragtaibox {
+  width: 80%;
+  height: fit-content;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container2 .zuragtaibox .zurag1 {
+  width: 350px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.container2 .zuragtaibox .zurag1 .uusgalt {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(rgba(41, 41, 41, 0.678), rgba(41, 41, 41, 0.678));
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  visibility: hidden;
+  opacity: 0;
+}
+.container2 .zuragtaibox .zurag1:hover .uusgalt{
+    visibility: visible;
+    opacity: 1;
+}
+.container2 .zuragtaibox .zurag1 .uusgalt .lodoi {
+  color: aliceblue;
+  text-align: center;
+  font-size: larger;
+}
+.container2 .zuragtaibox .zurag1 .uusgalt .lodoi span{
+    font-size: 30px;
+}
+.container2 .zuragtaibox .zurag1 .uusgalt .uusgaltzuraas{
+    width: 85%;
+    margin-top: 15px;
+}
+.container2 .zuragtaibox .zurag1 .uusgalt .lodoi1{
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 25px;
+    font-family: "Sacramento", cursive;
+}
+.container2 .zuragtaibox .zurag1 .uusgalt .lodoi1:hover{
+    color: yellow;
+}
+.container2 .zuragtaibox .zurag1 .uusgalt .lodoi2{
+    color: aliceblue;
+    text-align: center;
+    font-size: larger;
+}
+.container2 .zuragtaibox .zurag1 .uusgalt .lodoi2 span{
+    font-size: 30px;
+}
+
+
+
+
+
+.container6 .garchig {
+  text-align: center;
+  margin-top: 60px;
+  letter-spacing: 1mm;
+}
+.container6 .tomgarchig {
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
+  letter-spacing: 1mm;
+  margin-bottom: 10px;
+}
+.container6 .autumntxt {
+  text-align: center;
+  font-size: larger;
+  margin-top: 35px;
+}
+.container6 .zuraas1 {
+  width: 30%;
+  margin: auto;
+}
+.container6 .zuragtaibox {
+  width: 80%;
+  height: fit-content;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container6 .zuragtaibox .zurag1 {
+  width: 350px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.container6 .zuragtaibox .zurag1 .uusgalt {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(rgba(41, 41, 41, 0.678), rgba(41, 41, 41, 0.678));
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  visibility: hidden;
+  opacity: 0;
+}
+.container6 .zuragtaibox .zurag1:hover .uusgalt{
+    visibility: visible;
+    opacity: 1;
+}
+.container6 .zuragtaibox .zurag1 .uusgalt .lodoi {
+  color: aliceblue;
+  text-align: center;
+  font-size: larger;
+}
+.container6 .zuragtaibox .zurag1 .uusgalt .lodoi span{
+    font-size: 30px;
+}
+.container6 .zuragtaibox .zurag1 .uusgalt .uusgaltzuraas{
+    width: 85%;
+    margin-top: 15px;
+}
+.container6 .zuragtaibox .zurag1 .uusgalt .lodoi1{
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 25px;
+    font-family: "Sacramento", cursive;
+}
+.container6 .zuragtaibox .zurag1 .uusgalt .lodoi1:hover{
+    color: yellow;
+}
+.container6 .zuragtaibox .zurag1 .uusgalt .lodoi2{
+    color: aliceblue;
+    text-align: center;
+    font-size: larger;
+}
+.container6 .zuragtaibox .zurag1 .uusgalt .lodoi2 span{
+    font-size: 30px;
+}
+.container6 .container0{
+  width: 50%;
+}
+.zuragtai{
+  width: 100%;
+  height: 580px;
+  background-image: url(./zurag/background.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.textteicontainer{
+  width: 100%;
+  height: 880px;
+  background-color: rgb(244,239,222);
+  text-align: center;
+  padding-top: 200px;
+}
+.textteicontainer .bichig{
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+}
+.textteicontainer .bichig .autumntxt{
+  line-height: 170%;
+}
+.textteicontainer .bichig .tomgarchig{
+  font-family: Playfair Display SC,serif;
+  font-size: xx-large;
+  font-size: bold;
+}
+.textteicontainer .bigcontainer{
+  width: 80%;
+  height: fit-content;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.textteicontainer .bigcontainer .box{
+  width: 380px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textteicontainer .bigcontainer .box .photoo{
+  width: 60%;
+  height: 50%;
+}
+.textteicontainer .bigcontainer .box .photoo img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.textteicontainer .bigcontainer .box h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-top: 50px;
+}
+.textteicontainer .bigcontainer .box .line{
+  border: 1px solid black;
+  width: 160px;
+  margin-top: 15px;
+}
+.textteicontainer .bigcontainer .box .p{
+  font-family: Alice,serif;
+  margin-top: 15px;
+  text-align: center;
+  line-height: 170%;
+}
+.oroolt{
+  width: 100%;
+  height: 350px;
+  background-image: url(./zurag/123123123.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.tugsgul{
+  width: 100%;
+  height: fit-content;
+  background-color: #dba539;
+}
+.tugsgul .muurtai{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  padding-top: 50px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+.tugsgul .muurtai p{
+  color: aliceblue;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 2mm;
+  text-transform: uppercase;
+  font-size: smaller;
+}
+.tugsgul .muurtai p:hover{
+  color: #c7d93b;
+}
+.tugsgul .iconuud{
+  width: 200px;
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.tugsgul .iconuud .icon1{
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: white;
+  color: #dba539;
+}
+.tugsgultext{
+  width: 90%;
+  height: fit-content;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+.tugsgul .ungu{
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(rgba(0,0,0,0.567), rgba(0,0,0,0.567));
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+}
